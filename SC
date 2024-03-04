@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annia’s Resume</title>
+    
+    <!-- Internal Styles (Advanced with Colors) -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5; /* Light Grey */
+            color: #333; /* Dark Grey */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #990099; /* Purple */
+            color: #ffffff; /* White */
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        nav {
+            background-color: #cc00cc; /* Pink */
+            color: #ffffff; /* White */
+            padding: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: #ffffff; /* White */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 20px;
+            margin: 10px 0;
+            width: 80%; /* Adjust the width as needed */
+            border-radius: 8px;
+        }
+
+        h2 {
+            flex: 1; /* Allow the header to expand and fill available space */
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        table {
+            border: 2px solid #cc00cc; /* Pink */
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid #cc00cc; /* Pink */
+            padding: 10px;
+            text-align: left;
+        }
+
+        a {
+            color: #990099; /* Purple */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        dl {
+            margin: 0;
+        }
+
+        dl a {
+            color: #990099; /* Purple */
+            text-decoration: none;
+        }
+
+        dl a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* New style for the salary calculator button */
+        .salary-calculator-button {
+            color: #ffffff; /* White */
+            text-decoration: none;
+            font-weight: bold;
+            background-color: pink; /* Pink */
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Adjusted style for the navigation links */
+        nav a.salary-calculator-button:hover {
+            background-color: #cc00cc; /* Pink on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <!-- Added the Salary Calculator button -->
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#honorable-mention">Honorable Mention</a>
+        <a href="#contact">Contact</a>
+        <a href="#salary-calculator" class="salary-calculator-button">Salary Calculator</a>
+    </nav>
+
+    <header>
+        <h1>Annia Takori</h1>
+        <p>This website will provide insightful information on how to begin your journey in the law field.</p>
+    </header>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <table>
+            <tr>
+                <th>Employer</th>
+                <th>Job Title</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>NYS Supreme Court</td>
+                <td>Legal Assistant</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>White Plains Youth Court</td>
+                <td>Assistant</td>
+                <td>4 years</td>
+            </tr>
+            <tr>
+                <td>Jaffe and Asher LLP</td>
+                <td>Paralegal</td>
+                <td>2 years</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>University at Albany</h2>
+        <dl>
+            <dt>Junior</dt>
+            <dd><a href="https://www.albany.edu" target="_blank">University at Albany</a></dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Legal Research</li>
+            <li>Communication Skills</li>
+            <li>Time Management</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <dl>
+            <dt>Major: Informatics</dt>
+            <dt>Minor: Communication</dt>
+            <dd><a href="https://www.albany.edu/cehc/programs/bs-informatics" target="_blank">University at Albany - Informatics</a></dd>
+        </dl>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <!-- Add content for the Achievements section -->
+    </section>
+
+    <section id="honorable-mention">
+        <h2>Honorable Mention</h2>
+        <!-- Add content for the Honorable Mention section -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <!-- Add content for the Contact section -->
+    </section>
+
+</body>
+
+</html>
